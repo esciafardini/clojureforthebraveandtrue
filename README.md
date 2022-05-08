@@ -1,8 +1,9 @@
-## DAMN DANIEL
+# DAMN DANIEL
 
-# A playground for me to re-visit, REPL-ify, and document concepts & exercises in `Clojure For The Brave & True` by Daniel Higginbotham
+## A playground for me to re-visit, REPL-ify, and document concepts & exercises in `Clojure For The Brave & True` by Daniel Higginbotham
 
-#Chapter 11
+# Chapter 11
+## Core ASYNC
 
 core async implements CSP \
 `communicating sequential processes`
@@ -25,7 +26,8 @@ Channels (like futures) implement a First In First Out queue \
 
 
 
-#Chapter 12
+# Chapter 12
+## The JVM
 
 The power of the JVM
 
@@ -53,7 +55,7 @@ Next step to getting the thing running is to compile the source code:
 4. execute the program by typing in terminal `java DipShit` - NOTICE: no file extension
 
 
-##CLASSPATH
+### CLASSPATH
 
 What the FUDGE is the classpath
 
