@@ -3,12 +3,12 @@
 
 #Chapter 11
 
-core async implements CSP
+core async implements CSP \
 `communicating sequential processes`
 
-Inidividual process 
-communicating with eachother
-over a communication method
+Inidividual process \
+communicating with eachother \
+over a communication method \
 
 This communication method is the channel (chan)
 `many to many channel`
