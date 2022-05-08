@@ -67,3 +67,11 @@ Filesystem paths exist in the hierarchical structure. These paths are set...some
 classes?
 
 Okay, I think that makes sense.
+
+`jar cvfe conversation.jar PirateConversation PirateConversation.class pirate_phrases/*.class` \
+1. All the class files are bundled into conversation.jar
+2. The `e` flag indicated that PirateConversation is the `e`ntrypoint
+3. The entry point is the class that contains the main method that should be executed when the JAR runs
+4. The jar stores information in the file META-IN/METAFEST.MF
+
+`jar tf <JAR-FILE-NAME>.jar` - this will show meta contents
