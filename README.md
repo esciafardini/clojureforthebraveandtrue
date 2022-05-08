@@ -1,6 +1,6 @@
 # DAMN DANIEL
 
-## A playground for me to re-visit, REPL-ify, and document concepts & exercises in `Clojure For The Brave & True` by Daniel Higginbotham
+### A playground for me to re-visit, REPL-ify, and document concepts & exercises in `Clojure For The Brave & True` by Daniel Higginbotham
 
 # Chapter 11
 ## Core ASYNC
