@@ -75,3 +75,16 @@ Okay, I think that makes sense.
 4. The jar stores information in the file META-IN/METAFEST.MF
 
 `jar tf <JAR-FILE-NAME>.jar` - this will show meta contents
+
+## JAVA INTEROP
+`The ability to use Java classes, methods, and objects within Clojure`
+
+Bind a clojure symbol to an object:
+    (def java-stack (new java.util.Stack))
+Neat.
+Do a java method to the stack:
+    (.push java-stack 77)
+Neat.
+Do a clojure seq abstraction fn owneem:
+    (count java-stack)
+Neat.
